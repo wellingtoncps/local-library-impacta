@@ -1,0 +1,33 @@
+{
+  "name": "local-library",
+  "version": "0.1.0",
+  "engines": {
+    "node": "14.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www PORT=8000",
+    "test": "mocha  -- --recursive",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
+  },
+  "dependencies": {
+    "@primer/css": "^15.2.0",
+    "async": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^6.9.2",
+    "http-errors": "~1.6.3",
+    "luxon": "^1.25.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.13",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
