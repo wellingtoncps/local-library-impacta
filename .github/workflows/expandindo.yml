@@ -1,5 +1,5 @@
 
-name: CI
+name: Expandindo CLI
 on:
   push:
     branches: [ main ]
@@ -13,4 +13,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run a one-line script
         run: echo A data de agora é `date`
+        
+      - name: Testar WGET
+        run: wget http://www.google.com
+    
 
