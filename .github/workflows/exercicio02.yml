@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Segundo CLI
+name: Exercicio 02 CLI
 
 # Controls when the action will run. 
 on:
