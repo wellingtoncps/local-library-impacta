@@ -3,22 +3,20 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-jobs1:
+jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Rodando um simples script
         run: date
-jobs2:
-  job1:
+  job2:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Rodando um simples script
         run: date
-jobs3:
-  job1:
+  job3:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
