@@ -44,7 +44,7 @@ jobs:
           heroku_email: wellington.aied@gmail.com
           justlogin: true
       - name: Set Heroku remote
-        run: heroku git:remote -a app-impacta-wellingtoncps
+        run: heroku git:remote -a app-impacta-wellingtoncps-hom
       
       - name: Set env variables
         run: |
