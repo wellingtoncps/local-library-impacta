@@ -47,7 +47,7 @@ jobs:
           justlogin: true
       
       - name: Set Heroku remote
-        run: heroku git:remote -a app-impacta-pedrolacerda
+        run: heroku git:remote -a app-impacta-wellingtoncps
       
       - name: Set env variables
         run: |
